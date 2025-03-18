@@ -789,13 +789,13 @@ section,
   padding: 60px 0;
   display: flex;
   align-items: center;
-  background: url("../img/hero-bg-logo.png") top left;
+  background: url("../img/hero-bg_opacity_70.png") top left;
   background-size: cover;
 }
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  background: color-mix(in srgb, var(--background-color), transparent 100%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1853,4 +1853,10 @@ section,
 .portfolio-details .portfolio-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.staff {
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
