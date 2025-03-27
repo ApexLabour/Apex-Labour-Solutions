@@ -39,6 +39,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -195,12 +199,14 @@ h6 {
 
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+  scroll-behavior: smooth;
 }
 
 .scrolled .header .topbar {
   height: 0;
   visibility: hidden;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 1200px) {
@@ -675,22 +681,26 @@ h6 {
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
+  scroll-behavior: smooth;
 }
 
 .scroll-top i {
   font-size: 24px;
   color: var(--contrast-color);
   line-height: 0;
+  scroll-behavior: smooth;
 }
 
 .scroll-top:hover {
   background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
   color: var(--contrast-color);
+  scroll-behavior: smooth;
 }
 
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
+  scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 768px) {
@@ -740,6 +750,7 @@ section,
   padding: 60px 0;
   scroll-margin-top: 78px;
   overflow: clip;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 1199px) {
@@ -747,6 +758,7 @@ section,
   section,
   .section {
     scroll-margin-top: 60px;
+    scroll-behavior: smooth;
   }
 }
 
