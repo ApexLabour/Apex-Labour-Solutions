@@ -1429,6 +1429,7 @@ section,
 .team .team-member .member-info {
   padding: 25px 15px;
   text-align: center;
+  font-family: var(--heading-font);
 }
 
 .team .team-member .member-info h4 {
@@ -1436,20 +1437,23 @@ section,
   margin-bottom: 5px;
   font-size: 18px;
   color: color-mix(in srgb, var(--default-color));
+  font-family: var(--heading-font);
 }
 
 .team .team-member .member-info span {
   display: block;
-  font-size: 14px;
-  font-weight: 500;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  font-size: 15px;
+  font-weight: 450;
+  color: color-mix(in srgb, var(--default-color));
+  font-family: var(--heading-font);
 }
 
 .team .team-member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, var(--default-color));
+  font-family: var(--heading-font);
 }
 
 .team .team-member:hover .social {
