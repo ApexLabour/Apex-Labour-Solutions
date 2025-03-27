@@ -1443,7 +1443,7 @@ section,
 .team .team-member .member-info span {
   display: block;
   font-size: 15px;
-  font-weight: 450;
+  font-weight: 400;
   color: color-mix(in srgb, var(--default-color));
   font-family: var(--heading-font);
 }
